@@ -1,0 +1,1 @@
+Approximation of π using 10000 terms: 3.1414926535900345

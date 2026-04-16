@@ -1,0 +1,11 @@
+Python code to compute the series:
+terms = 10000
+total = 0.0
+for n in range(terms):
+    term = (-1) ** n / (2 * n + 1)
+    total += term
+final_value = 4 * total
+print(f"Sum of first {terms} terms multiplied by 4: {final_value}")
+
+Output:
+Sum of first 10000 terms multiplied by 4: 3.1414926535900345
